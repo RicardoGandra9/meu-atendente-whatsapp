@@ -1,0 +1,17 @@
+{
+  "name": "atendente-baileys",
+  "version": "1.0.0",
+  "description": "Atendente WhatsApp com Baileys e n8n",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "express": "^4.19.2",
+    "pino": "^8.21.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
