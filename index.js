@@ -58,7 +58,7 @@ async function connectToWhatsApp() {
         logger: pino({ level: 'silent' }),
         printQRInTerminal: false, // Desativamos a impressão no terminal
         auth: state,
-        browser: ['Gemini-Bot', 'Chrome', '1.0.0']
+        browser: ['n8n-whatsapp', 'Chrome', '1.0.0']
     });
 
     sock.ev.on('connection.update', async (update) => {
